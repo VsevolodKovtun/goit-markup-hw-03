@@ -86,20 +86,23 @@ address {
     margin-right: auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
 /* HEADER */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .heder-container {
     display: flex;
     align-items: center;
-}
-
-.header-contacts {
-    margin-left: auto;
 }
 
 .nav {
@@ -109,6 +112,7 @@ address {
 
 .contact-list {
     display: flex;
+    margin-left: auto;
 }
 
 .nav-list {
@@ -133,6 +137,13 @@ address {
 }
 
 /* link nav */
+.link {
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
+
 .link-nav {
     color: var(--black-cl);
     font-weight: 500;
@@ -232,6 +243,7 @@ margin-right: 0px;
 
 .list-benefits-items {
     margin-right: 30px;
+    width: 270px;
 }
 .list-benefits-items:last-child {
     margin-right: 0px;
@@ -242,6 +254,7 @@ margin-right: 0px;
     font-size: 14px;
     line-height: 1.2;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .benefits-text {
