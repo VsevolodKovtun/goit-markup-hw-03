@@ -1,0 +1,81 @@
+
+.examples-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+
+.btn-list {
+    display: flex;
+    margin: 0 auto 72px auto;
+    justify-content: center;
+}
+
+.btn-list-item {
+    margin-right: 24px;
+}
+
+.btn-list-item:last-child {
+    margin-right: 0;
+}
+
+.examples-btn {
+    padding: 12px 24px;
+    background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
+
+.examples-btn:hover,
+.examples-btn:focus {
+background-color: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: #ffffff;
+border: 0px;
+}
+
+.examples-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.examples-list-item {
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
+.examples-list-item:nth-child(n + 7) {
+margin-bottom: 0;
+}
+
+.examples-list-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.examples-list-container {
+    border: 1px solid #E7E9FC;
+    border-top: 0px;
+    padding: 32px 0 32px 16px;
+}
+
+.examples-list-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.examples-list-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
